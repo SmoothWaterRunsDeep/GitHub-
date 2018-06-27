@@ -1,0 +1,46 @@
+@keyframes myAnimname{
+    0%{
+        font-size: 18px;
+        color: aqua;
+        background: radial-gradient(circle 100px at 10px 120px,#fff,#f3a144);
+        
+    }
+    25%{
+        font-size: 22px;
+        color: blue;        
+        background: radial-gradient(circle 100px at 120px 20px,#fff,#dc1414);
+    }
+    50%{
+        font-size: 18px;
+        color: #9807f8;
+        background: radial-gradient(circle 100px at 230px 120px,#fff, #0cf518);
+        
+    }
+    75%{
+        font-size: 22px;
+        color: #fa0909;      
+        background: radial-gradient(circle 100px at 120px 230px,#fff,#f8079c);
+    }
+    100%{
+        font-size: 18px;
+        color: #07f81b;    
+        background: radial-gradient(circle 100px at 10px 120px,#fff, #0969fa);
+    }
+}
+.colorlight{
+    width:240px;
+    height:240px;
+    border-radius:50%;
+    background: radial-gradient(circle 100px at 10px 120px,#fff,#f3a144);
+    margin: 0 auto;
+    animation-name: myAnimname;
+    animation-duration: .9s;
+    animation-iteration-count:infinite;
+/*    animation-direction:alternate;*/
+    animation-timing-function:ease-in-out;       
+}
+p{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
